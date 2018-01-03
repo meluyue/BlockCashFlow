@@ -1,0 +1,214 @@
+/*------------------比特币全网统计--------------------*/
+.count-container {
+  width: 1024px;
+  margin: 0 auto;
+  padding-top: 120px;
+}
+
+.count-title {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.count-container .count-table {
+  width: 100%;
+  border-spacing: 0;
+  border-collapse: collapse;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.count-container .count-table tbody tr:nth-child(even) {
+  background: #F8F9F8;
+}
+
+.count-container .count-table tbody td {
+  width: 13%;
+}
+
+.count-container .count-table tbody td:nth-child(1) {
+  width: 12%;
+  padding-left: 15px;
+}
+
+.count-container .count-table tbody td:nth-child(2) {
+  width: 12%;
+}
+
+.count-container .count-table tbody td:nth-child(3) {
+  width: 15%;
+}
+
+.count-container .count-table tbody td:nth-child(4) {
+  width: 23%;
+}
+
+.count-container .count-table tbody td {
+  padding: 15px 0;
+}
+
+/*------------------------比特币数据排名------------------*/
+.rank-container {
+  width: 1024px;
+  margin: 50px auto;
+  overflow: hidden;
+}
+
+.rank-container .rank-left {
+  width: 490px;
+  float: left;
+}
+
+.rank-container .rank-right {
+  width: 490px;
+  float: right;
+}
+
+.rank-container .rank-title {
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.rank-container .rank-title span:first-child {
+  float: left;
+}
+
+.rank-container .rank-title span:last-child {
+  float: right;
+  color: #0FACE4;
+  font-size: 12px;
+}
+
+.rank-container .rank-table-left, .rank-container .rank-table-right {
+  width: 490px;
+  border-spacing: 0;
+  border-collapse: collapse;
+
+}
+
+.rank-container .rank-table-left thead, .rank-container .rank-table-right thead {
+  text-align: left;
+}
+
+.rank-container .rank-table-left th, .rank-container .rank-table-right th {
+  padding: 15px 0;
+  font-size: 14px;
+  background: #F8F9F8;
+}
+
+.rank-container .rank-table-left tr:nth-child(even), .rank-container .rank-table-right tr:nth-child(even) {
+  background: #F8F9F8;
+}
+
+.rank-container .rank-table-left td, .rank-container .rank-table-right td {
+  padding: 15px 0;
+  font-size: 14px;
+}
+
+.rank-container .rank-table-left th:first-child, .rank-container .rank-table-right th:first-child {
+  padding: 10px 0 10px 3px;
+  font-size: 14px;
+}
+
+.rank-container .rank-table-left td:first-child, .rank-container .rank-table-right td:first-child {
+  padding: 0 5px;
+}
+
+.rank-container .rank-full {
+  width: 100%;
+  font-size: 14px;
+}
+
+.rank-container .rank-full .rank-full-table {
+  width: 100%;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+.rank-container .rank-full .rank-full-table thead {
+  text-align: left;
+  background: #F8F9F8;
+
+}
+
+.rank-container .rank-full .rank-full-table thead th {
+  padding: 15px 0;
+}
+
+.rank-container .rank-full .rank-full-table thead th:first-child {
+  padding-left: 5px;
+}
+
+.rank-container .rank-full td {
+  padding: 15px 0;
+  font-size: 14px;
+}
+
+.rank-container .rank-full tr:nth-child(even) {
+  background: #F8F9F8;
+}
+
+/*----------------图表样式-------------------*/
+
+.chart-bg {
+  width: 100%;
+  background: #F5F7F9;
+  padding: 30px 0;
+  overflow: hidden;
+  margin-top: 50px;;
+}
+
+.chart-left, .chart-right {
+  width: 50%;
+}
+
+.chart-container {
+  width: 1024px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.chart-left {
+  float: left;
+  height: 280px;
+  background: #00aee6;
+}
+
+.chart-container .chart-title {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 15px;
+
+}
+
+.chart-container .data-chart {
+  width: 50%;
+  height: 280px;
+  float: left;
+  text-align: center;
+}
+
+.chart-container .data-chart img {
+  width: 450px;
+}
+
+.chart-container .data-chart .chart-kind {
+  padding-left: 30px;
+  font-size: 16px;
+  text-align: left;
+  height: 30px;
+  line-height: 30px;
+}
+
+
+
+
+
+
+
+

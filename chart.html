@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/chart.css">
+</head>
+<body>
+<!---------------------导航------------------------->
+<nav>
+    <ul class="igation">
+        <li>
+            <a href="javascript:;">BlockCashFlow</a>
+            <input class="kind-coin" readonly="readonly" type="text" placeholder="BTC">
+            <div class="coin-list">
+                <span>BTC</span>
+                <span>ETH</span>
+            </div>
+        </li>
+        <li>
+            <a href="javascript:;">首页</a>
+        </li>
+        <li>
+            <a href="javascript:;" id="nav-data">智能跟投</a>
+        </li>
+        <li>
+            <a href="javascript:;">排名</a>
+        </li>
+        <li class="flex-space"></li>
+        <li>
+            <form action="" class="search-form" method="GET">
+                <input class="search-bar" name="search" placeholder="搜索" type="text">
+            </form>
+        </li>
+        <li>
+            <input class="kind-lang" readonly="readonly" type="text" placeholder="English">
+            <div class="lang-list">
+                <span>English</span>
+                <span>简体中文</span>
+            </div>
+        </li>
+    </ul>
+</nav>
+
+<!--------------------图表信息---------------------->
+<div class="chart-container">
+lalla
+</div>
+<!--------------------版权---------------------->
+<footer>
+    &copy; 信谁科技(天津)有限公司 email@xin-shui.com
+</footer>
+<script src="./js/jquery-1.11.3.js"></script>
+<script>
+  var  H=$(window).height()-$('footer').height()-$('.chart-container').offset().top-$('nav').height()-30;
+  $('.chart-container').css('height',H+'px')
+
+</script>
+
+</body>
+</html>

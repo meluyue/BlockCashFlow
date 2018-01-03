@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .table-container:first-of-type {
+            flex: 1 0 auto;
+            -ms-flex: 1 0 auto;
+            -webkit-box-flex: 1;
+        }
+
+        .table-container {
+            width: 1170px;
+        }
+
+        .chart-container {
+            width: 1170px;
+        }
+
+        .chart-left, .chart-right {
+            width: 50%;
+        }
+
+        .table-container {
+            margin: 0 auto;
+            padding: 100px 15px 0 15px;
+        }
+
+        .title-cont {
+            font-weight: 500;
+            margin-bottom: 15px;
+            margin-top: 20px;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-orient: horizontal;
+            -webkit-box-direction: normal;
+            -webkit-flex-direction: row;
+            -ms-flex-direction: row;
+            flex-direction: row;
+            -webkit-box-align: center;
+            -webkit-align-items: center;
+            -ms-flex-align: center;
+            -ms-grid-row-align: center;
+            align-items: center;
+            -ms-flex-pack: justify;
+            -webkit-box-pack: justify;
+            justify-content: space-between;
+            -webkit-justify-content: space-between;
+        }
+
+        .f-24 {
+            font-size: 24px;
+        }
+
+        .f-16 {
+            font-size: 16px;
+        }
+
+        a {
+            outline: 0;
+            cursor: pointer;
+            color: #10ADE4;
+            text-decoration: none;
+        }
+
+        .mr-5 {
+            margin-right: 5px;
+        }
+
+        .table-cont {
+            width: 100%;
+            max-width: 100%;
+            margin-bottom: 0;
+            vertical-align: bottom;
+            background-color: transparent;
+            border-collapse: collapse;
+            border-spacing: 0;
+            border-color: inherit;
+
+        }
+
+        .table-cont > tbody > tr:nth-of-type(odd) {
+            background-color: #f9f9f9;
+        }
+
+        .col-md-12 {
+            width: 100%;
+            float: left;
+            position: relative;
+            min-height: 1px;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+        .table-cont > tbody > tr > th, .table-cont > tbody > tr > td {
+            border: 0;
+            padding: 18px;
+            font-size: 14px;
+            font-weight: 400;
+            vertical-align: top;
+            line-height: 1.428571429;
+            text-align: left;
+        }
+
+        .table-cont > tbody > tr:nth-of-type(odd) {
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+<div class="table-container ">
+    <div class="title-cont ">
+        <span class="f-24">最近的交易记录</span>
+        <a class="f-16" href="javascript:;"><b class="mr-5">更多… <i class=""></i></b></a>
+    </div>
+    <table class=" table-cont ">
+        <tbody>
+        <tr>
+            <th>高度</th>
+            <th>时间</th>
+            <th class="hidden-xs">交易记录</th>
+            <th class="hidden-xs">发送</th>
+            <th class="hidden-xs">播报方</th>
+            <th>大小（kB）</th>
+            <th>重量 (kWU)</th>
+        </tr>
+        <tr id="bi-1659772">
+            <td>
+                <a href="javascript:;">501044</a>
+            </td>
+            <td data-time="1514250830">17 minutes</td>
+            <td class="hidden-xs">800</td>
+            <td class="hidden-xs"><span data-c="239521540932">2,395.22 BTC</span>
+            </td>
+            <td class="hidden-xs">
+                <a href="javascript:;">AntPool</a>
+            </td>
+            <td>1,007.45</td>
+            <td>3,992.31</td>
+        </tr>
+        <tr id="bi-1658790">
+            <td>
+                <a href="javascript:;">501043</a>
+            </td>
+            <td data-time="1514250708">19 minutes</td>
+            <td class="hidden-xs">1985</td>
+            <td class="hidden-xs"><span data-c="1104137771613">11,041.38 BTC</span>
+            </td>
+            <td class="hidden-xs">
+                <a href="javascript:;">BTC.com</a>
+            </td>
+            <td>1,132.39</td>
+            <td>3,992.89</td>
+        </tr>
+        <tr id="bi-1659771">
+            <td>
+                <a href="javascript:;">501042</a>
+            </td>
+            <td data-time="1514249841">33 minutes</td>
+            <td class="hidden-xs">1959</td>
+            <td class="hidden-xs"><span data-c="1215354876589">12,153.55 BTC</span>
+            </td>
+            <td class="hidden-xs">
+                <a href="javascript:;">BTC.com</a>
+            </td>
+            <td>1,270.83</td>
+            <td>3,992.93</td>
+        </tr>
+        <tr id="bi-1659770">
+            <td>
+                <a href="javascript:;">501041</a>
+            </td>
+            <td data-time="1514248092">1 hour 2 minutes</td>
+            <td class="hidden-xs">1270</td>
+            <td class="hidden-xs"><span data-c="1064634463394">10,646.34 BTC</span>
+            </td>
+            <td class="hidden-xs">
+                <a href="javascript:;">BitFury</a>
+            </td>
+            <td>1,036.88</td>
+            <td>3,992.24</td>
+        </tr>
+        </tbody>
+    </table>
+
+</div>
+
+</body>
+</html>

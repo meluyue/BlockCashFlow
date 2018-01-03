@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BlockCashFlow</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<!---------------------导航------------------------->
+<nav>
+    <ul class="igation">
+        <li>
+            <a href="javascript:;">BlockCashFlow</a>
+            <input class="kind-coin" readonly="readonly" type="text" placeholder="BTC">
+            <div class="coin-list">
+                <span>BTC</span>
+                <span>ETH</span>
+            </div>
+        </li>
+        <li>
+            <a href="javascript:;">首页</a>
+        </li>
+        <li>
+            <a href="javascript:;" id="nav-data">智能跟投</a>
+        </li>
+        <li>
+            <a href="javascript:;">排名</a>
+        </li>
+        <li class="flex-space"></li>
+        <li>
+            <form action="" class="search-form" method="GET">
+                <input class="search-bar" name="search" placeholder="搜索" type="text">
+            </form>
+        </li>
+        <li>
+            <input class="kind-lang" readonly="readonly" type="text" placeholder="English">
+            <div class="lang-list">
+                <span>English</span>
+                <span>简体中文</span>
+            </div>
+        </li>
+    </ul>
+</nav>
+
+<!--------------------比特币全网统计---------------------->
+<div class="count-container">
+    <div class="count-title">
+        比特币全网统计
+    </div>
+    <table class="count-table">
+        <tbody>
+        <tr>
+            <td colspan="2">市场价格(实时)USD 1000000</td>
+
+            <td>待确认转账统计</td>
+            <td>总量 99999999999BTC</td>
+            <td colspan="2">24h相对BTC涨跌幅排名</td>
+        </tr>
+        <tr>
+            <td>30分钟 : -10%</td>
+            <td>1小时 : 2%</td>
+            <td>1.06HTC 66笔</td>
+            <td>总市值 999999999999999BTC</td>
+            <td>EMB 1,637.35%</td>
+            <td>PEC -90.52%</td>
+        </tr>
+        <tr>
+            <td>24小时 : -10%</td>
+            <td>1周 : 2%</td>
+            <td>24小时转账统计</td>
+            <td>日均转账 100BTC</td>
+            <td>MARS 433.35%</td>
+            <td>OTX -44.52%</td>
+        </tr>
+        <tr>
+            <td>1个月 : 20%</td>
+            <td>1年 : 200%</td>
+            <td>200BTC 12321笔</td>
+            <td>8888889笔</td>
+            <td>BITS 319.52%</td>
+            <td>DCN -30.52%</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+<!--------------------比特币数据排名---------------------->
+<div class="rank-container">
+    <div class="count-title">
+        比特币数据排名
+    </div>
+    <div class="rank-left">
+        <div class="rank-title">
+            <span>余额排名</span>
+            <span>more</span>
+        </div>
+        <table class="rank-table-left">
+            <thead>
+            <tr>
+                <th>高度</th>
+                <th>时间</th>
+                <th>交易记录</th>
+                <th>大小</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>
+                    <a href="javascript:;">501044</a>
+                </td>
+                <td>17 minutes</td>
+                <td>800</td>
+                <td>1,007.45</td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="javascript:;">501043</a>
+                </td>
+                <td>19 minutes</td>
+                <td>1985</td>
+                <td>1,132.39</td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="javascript:;">501042</a>
+                </td>
+                <td>33 minutes</td>
+                <td>1959</td>
+                <td>1,270.83</td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="javascript:;">501041</a>
+                </td>
+                <td>1 hour 2 minutes</td>
+                <td>1270</td>
+                <td>1,036.88</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="rank-right">
+        <div class="rank-title">
+            <span>余额变化排名</span>
+            <span>more</span>
+        </div>
+        <table class="rank-table-right">
+            <thead>
+            <tr>
+                <th>高度</th>
+                <th>时间</th>
+                <th>交易记录</th>
+                <th>大小</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>
+                    <a href="javascript:;">501044</a>
+                </td>
+                <td>17 minutes</td>
+                <td>800</td>
+                <td>1,007.45</td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="javascript:;">501043</a>
+                </td>
+                <td>19 minutes</td>
+                <td>1985</td>
+                <td>1,132.39</td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="javascript:;">501042</a>
+                </td>
+                <td>33 minutes</td>
+                <td>1959</td>
+                <td>1,270.83</td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="javascript:;">501041</a>
+                </td>
+                <td>1 hour 2 minutes</td>
+                <td>1270</td>
+                <td>1,036.88</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="rank-left">
+        <div class="rank-title">
+            <span>收入、支出排名</span>
+            <span>more</span>
+        </div>
+        <table class="rank-table-left">
+            <thead>
+            <tr>
+                <th>高度</th>
+                <th>时间</th>
+                <th>交易记录</th>
+                <th>大小</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>
+                    <a href="javascript:;">501044</a>
+                </td>
+                <td>17 minutes</td>
+                <td>800</td>
+                <td>1,007.45</td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="javascript:;">501043</a>
+                </td>
+                <td>19 minutes</td>
+                <td>1985</td>
+                <td>1,132.39</td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="javascript:;">501042</a>
+                </td>
+                <td>33 minutes</td>
+                <td>1959</td>
+                <td>1,270.83</td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="javascript:;">501041</a>
+                </td>
+                <td>1 hour 2 minutes</td>
+                <td>1270</td>
+                <td>1,036.88</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="rank-right">
+        <div class="rank-title">
+            <span>交易笔数排名</span>
+            <span>more</span>
+        </div>
+        <table class="rank-table-right">
+            <thead>
+            <tr>
+                <th>高度</th>
+                <th>时间</th>
+                <th>交易记录</th>
+                <th>大小</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>
+                    <a href="javascript:;">501044</a>
+                </td>
+                <td>17 minutes</td>
+                <td>800</td>
+                <td>1,007.45</td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="javascript:;">501043</a>
+                </td>
+                <td>19 minutes</td>
+                <td>1985</td>
+                <td>1,132.39</td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="javascript:;">501042</a>
+                </td>
+                <td>33 minutes</td>
+                <td>1959</td>
+                <td>1,270.83</td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="javascript:;">501041</a>
+                </td>
+                <td>1 hour 2 minutes</td>
+                <td>1270</td>
+                <td>1,036.88</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!--------------------比特币累计排名---------------------->
+<div class="rank-container">
+    <div class="count-title">
+        比特币累计排名
+    </div>
+    <div class="rank-left">
+        <div class="rank-title">
+            <span>累计交易额排名</span>
+            <span>more</span>
+        </div>
+        <table class="rank-table-left">
+            <thead>
+            <tr>
+                <th>高度</th>
+                <th>时间</th>
+                <th>交易记录</th>
+                <th>大小</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>
+                    <a href="javascript:;">501044</a>
+                </td>
+                <td>17 minutes</td>
+                <td>800</td>
+                <td>1,007.45</td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="javascript:;">501043</a>
+                </td>
+                <td>19 minutes</td>
+                <td>1985</td>
+                <td>1,132.39</td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="javascript:;">501042</a>
+                </td>
+                <td>33 minutes</td>
+                <td>1959</td>
+                <td>1,270.83</td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="javascript:;">501041</a>
+                </td>
+                <td>1 hour 2 minutes</td>
+                <td>1270</td>
+                <td>1,036.88</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="rank-right">
+        <div class="rank-title">
+            <span>累计交易笔数排名</span>
+            <span>more</span>
+        </div>
+        <table class="rank-table-right">
+            <thead>
+            <tr>
+                <th>高度</th>
+                <th>时间</th>
+                <th>交易记录</th>
+                <th>大小</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>
+                    <a href="javascript:;">501044</a>
+                </td>
+                <td>17 minutes</td>
+                <td>800</td>
+                <td>1,007.45</td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="javascript:;">501043</a>
+                </td>
+                <td>19 minutes</td>
+                <td>1985</td>
+                <td>1,132.39</td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="javascript:;">501042</a>
+                </td>
+                <td>33 minutes</td>
+                <td>1959</td>
+                <td>1,270.83</td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="javascript:;">501041</a>
+                </td>
+                <td>1 hour 2 minutes</td>
+                <td>1270</td>
+                <td>1,036.88</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!--------------------比特币综合排名---------------------->
+<div class="rank-container">
+    <div class="count-title">
+        比特币综合排名
+    </div>
+    <div class="rank-full">
+        <div class="rank-title">
+            <span>大额活跃账户</span>
+            <span>more</span>
+        </div>
+        <table class="rank-full-table">
+            <thead>
+            <tr>
+                <th>高度</th>
+                <th>时间</th>
+                <th>交易记录</th>
+                <th>大小（kB）</th>
+                <th>重量 (kWU)</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>
+                    <a href="javascript:;">501044</a>
+                </td>
+                <td>17 minutes</td>
+                <td>800</td>
+                <td>1,007.45</td>
+                <td>3,992.31</td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="javascript:;">501043</a>
+                </td>
+                <td>19 minutes</td>
+                <td>1985</td>
+                <td>1,132.39</td>
+                <td>3,992.89</td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="javascript:;">501042</a>
+                </td>
+                <td>33 minutes</td>
+                <td>1959</td>
+                <td>1,270.83</td>
+                <td>3,992.93</td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="javascript:;">501041</a>
+                </td>
+                <td>1 hour 2 minutes</td>
+                <td>1,270.83</td>
+                <td>1,036.88</td>
+                <td>3,992.24</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="rank-left">
+        <div class="rank-title">
+            <span>大额活跃账户</span>
+            <span>more</span>
+        </div>
+        <table class="rank-table-left">
+            <thead>
+            <tr>
+                <th>高度</th>
+                <th>时间</th>
+                <th>交易记录</th>
+                <th>大小</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>
+                    <a href="javascript:;">501044</a>
+                </td>
+                <td>17 minutes</td>
+                <td>800</td>
+                <td>1,007.45</td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="javascript:;">501043</a>
+                </td>
+                <td>19 minutes</td>
+                <td>1985</td>
+                <td>1,132.39</td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="javascript:;">501042</a>
+                </td>
+                <td>33 minutes</td>
+                <td>1959</td>
+                <td>1,270.83</td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="javascript:;">501041</a>
+                </td>
+                <td>1 hour 2 minutes</td>
+                <td>1270</td>
+                <td>1,036.88</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="rank-right">
+        <div class="rank-title">
+            <span>大额死户列表</span>
+            <span>more</span>
+        </div>
+        <table class="rank-table-right">
+            <thead>
+            <tr>
+                <th>高度</th>
+                <th>时间</th>
+                <th>交易记录</th>
+                <th>大小</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>
+                    <a href="javascript:;">501044</a>
+                </td>
+                <td>17 minutes</td>
+                <td>800</td>
+                <td>1,007.45</td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="javascript:;">501043</a>
+                </td>
+                <td>19 minutes</td>
+                <td>1985</td>
+                <td>1,132.39</td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="javascript:;">501042</a>
+                </td>
+                <td>33 minutes</td>
+                <td>1959</td>
+                <td>1,270.83</td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="javascript:;">501041</a>
+                </td>
+                <td>1 hour 2 minutes</td>
+                <td>1270</td>
+                <td>1,036.88</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!--------------------图表---------------------->
+<div class="chart-bg">
+
+    <div class="chart-container">
+        <div class="chart-title">
+            比特币全网统计
+        </div>
+        <div class="data-chart">
+            <div class="chart-kind">交易额总数</div>
+            <img src="./images/chart.png" alt="">
+        </div>
+        <div class="data-chart">
+            <div class="chart-kind">矿机收入</div>
+            <img src="./images/chart.png" alt="">
+        </div>
+        <div class="data-chart">
+            <div class="chart-kind">网络运行成本</div>
+            <img src="./images/chart.png" alt="">
+        </div>
+        <div class="chart-left">
+
+        </div>
+
+    </div>
+</div>
+
+<!--------------------版权---------------------->
+<footer>
+    &copy; 信谁科技(天津)有限公司 email@xin-shui.com
+</footer>
+
+
+<script src='js/jquery-1.11.3.js'></script>
+<script>
+
+</script>
+</body>
+</html>
